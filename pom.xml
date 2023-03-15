@@ -43,26 +43,11 @@
             <version>3.0.1</version>
         </dependency>
 
-        <dependency>
+        <dependency> <!--for registered client use-->
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter</artifactId>
             <version>4.0.1</version>
         </dependency>
-     <!--   <dependency> &lt;!&ndash;for server use&ndash;&gt;
-            <groupId>de.codecentric</groupId>
-            <artifactId>spring-boot-admin-server</artifactId>
-            <version>3.0.1</version>
-        </dependency>
-        <dependency> &lt;!&ndash;heartbeat ui&ndash;&gt;
-            <groupId>de.codecentric</groupId>
-            <artifactId>spring-boot-admin-server-ui</artifactId>
-            <version>3.0.1</version>
-        </dependency>
-        <dependency> &lt;!&ndash;for client use&ndash;&gt;
-            <groupId>de.codecentric</groupId>
-            <artifactId>spring-boot-admin-starter-client</artifactId>
-            <version>3.0.1</version>
-        </dependency>-->
     </dependencies>
 
     <build>
