@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 关闭启动时logback日志显示 -->
+    <statusListener class="ch.qos.logback.core.status.NopStatusListener"/>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="org.springframework.web" level="DEBUG"/>
+    <jmxConfigurator/>
+
+<!--    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS,GMT+8} %highlight(%-5level) [%boldMagenta(%-10t)]- %green(%c) %boldCyan(%-10M): %msg%n
+            </pattern>
+            <charset>utf-8</charset>
+        </encoder>
+    </appender>-->
+
+</configuration>
